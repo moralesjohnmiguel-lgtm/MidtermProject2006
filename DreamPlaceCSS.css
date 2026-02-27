@@ -1,0 +1,171 @@
+/* ================= GENERAL RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef4ff;
+    color: #2c2c2c;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* ================= STICKY HEADER ================= */
+.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #eaf3ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo h1 {
+    color: #4b5fd7;
+    font-size: 22pt;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #23359F;
+    font-weight: bold;
+    font-size: 11pt;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #dfe5ff;
+}
+
+/* ================= PAGE TITLE ================= */
+.page-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.page-title h2 {
+    color: #4b5fd7;
+    letter-spacing: 2px;
+}
+
+/* ================= CONTENT BOX ================= */
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #eaf3ff;
+    border: 2px solid #c9ddff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.content h2 {
+    color: #4b5fd7;
+    margin-bottom: 15px;
+}
+
+/* ================= IMAGE GALLERY ================= */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.image-container {
+    position: relative;
+    width: 250px;
+}
+
+.collage-item {
+    width: 250px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.2));
+}
+
+.collage-item:hover {
+    transform: scale(1.1);
+}
+
+/* Shapes */
+.shape-square {
+    border-radius: 10px;
+    border: 4px solid #fff;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.shape-circle {
+    border-radius: 50%;
+    border: 4px solid #fff;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.shape-diamond {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+/* Overlay Text */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+    background: rgba(0, 0, 0, 0.45);
+    padding: 8px 14px;
+    border-radius: 10px;
+
+    pointer-events: none;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 11pt;
+    color: #5a6ee6;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+footer a {
+    color: #4b5fd7;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #4b5fd7;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    background-color: #4b5fd7;
+    color: white;
+}

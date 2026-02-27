@@ -1,0 +1,149 @@
+/* ================= GENERAL RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef4ff;
+    color: #2c2c2c;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* ================= STICKY HEADER ================= */
+.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: #eaf3ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo h1 {
+    margin: 0;
+    color: #4b5fd7;
+    font-size: 22pt;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #23359F;
+    font-weight: bold;
+    font-size: 11pt;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+.nav-menu a:hover {
+    background-color: #dfe5ff;
+}
+
+/* ================= PAGE TITLE (NO ANIMATION) ================= */
+.page-title {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #eaf3ff;
+    border-radius: 15px;
+    border: 2px solid #c9ddff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.page-title:hover {
+    border-color: #4b5fd7;
+}
+
+.page-title h2 {
+    color: #4b5fd7;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.page-title p {
+    font-size: 12pt;
+}
+
+/* ================= BLOG SECTION ================= */
+.blog-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ================= BLOG CARD (NO ANIMATION) ================= */
+.blog-card {
+    background: #eaf3ff;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid #c9ddff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.blog-card:hover {
+    border-color: #4b5fd7;
+}
+
+.blog-card h3 {
+    color: #4b5fd7;
+    margin-bottom: 15px;
+}
+
+.blog-card p {
+    font-size: 12pt;
+    margin-bottom: 15px;
+}
+
+/* ================= READ MORE BUTTON ================= */
+.read-more {
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #4b5fd7;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid #4b5fd7;
+    font-size: 11pt;
+}
+
+.read-more:hover {
+    background-color: #5a6ee6;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 11pt;
+    color: #5a6ee6;
+}
+
+footer a {
+    color: #4b5fd7;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #4b5fd7;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+footer a:hover {
+    background-color: #4b5fd7;
+    color: white;
+}

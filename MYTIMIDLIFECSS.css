@@ -1,0 +1,203 @@
+/* ================= GENERAL ================= */
+
+body {
+    background-color: #eef4ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2c2c2c;
+}
+
+/* ================= STICKY HEADER ================= */
+
+.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    background-color: #eaf3ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo h1 {
+    margin: 0;
+    color: #4b5fd7;
+    font-size: 20pt;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #4b5fd7;
+    font-weight: bold;
+    font-size: 11pt;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #dfe5ff;
+}
+
+/* ================= PAGE TITLE ================= */
+
+.page-title {
+    text-align: center;
+    color: #4b5fd7;
+    border: 2px solid #4b5fd7;
+    border-radius: 12px;
+    padding: 15px 25px;
+    width: fit-content;
+    margin: 120px auto 30px auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.2s ease;
+}
+
+/* ✅ Hover effect added */
+.page-title:hover {
+    background-color: #4b5fd7;
+    color: white;
+}
+
+/* ================= SECTION NAV (Childhood / Teenage / College) ================= */
+
+.nav {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13pt;
+    color: #4b5fd7;
+    border: 2px solid #4b5fd7;
+    padding: 6px 14px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.2s ease;
+}
+
+.nav a:hover {
+    background-color: #4b5fd7;
+    color: white;
+}
+
+/* ================= CONTENT ================= */
+
+.content {
+    max-width: 800px;
+    margin: 30px auto;
+    text-align: justify;
+    border: 1px solid #c7cffc;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #eaf3ff;
+}
+
+.content h2 {
+    color: #5a6ee6;
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 12pt;
+    line-height: 1.6;
+    text-indent: 0.5in;
+}
+
+sup {
+    font-size: 9pt;
+    color: #5a6ee6;
+}
+
+strong, b {
+    color: #4b5fd7;
+}
+
+em, i {
+    color: #5a6ee6;
+}
+
+mark {
+    background-color: #c7cffc;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* ================= IMAGE GALLERY ================= */
+
+.image-gallery {
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+.image-gallery a {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.image-gallery img {
+    width: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ================= SECTION BACK TO TOP BUTTON ================= */
+
+.section-btn {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.section-btn a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4b5fd7;
+    border: 2px solid #4b5fd7;
+    padding: 6px 14px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.2s ease;
+}
+
+.section-btn a:hover {
+    background-color: #4b5fd7;
+    color: white;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 11pt;
+    color: #5a6ee6;
+    padding-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4b5fd7;
+    border: 2px solid #4b5fd7;
+    padding: 6px 12px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.2s ease;
+}
+
+footer a:hover {
+    background-color: #4b5fd7;
+    color: white;
+}
